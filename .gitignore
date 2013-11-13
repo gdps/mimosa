@@ -1,0 +1,6 @@
+/ebin
+deps
+.eunit
+/log
+Mnesia*
+erl_crash.dump

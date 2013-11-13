@@ -1,0 +1,12 @@
+{application, mimosa,
+ [
+  {description, ""},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mimosa_app, []}},
+  {env, []}
+ ]}.
