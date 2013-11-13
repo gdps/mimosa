@@ -22,3 +22,6 @@ nothing:
 
 test: nothing
 	@./rebar eunit skip_deps=true
+
+run: all
+	@erl -pa ebin -pa deps/**/ebin -s mimosa_app -config config/example.config
